@@ -1,4 +1,4 @@
-{
+{ "homepage":"http://victorSauceda.github.io/formcontrol/",
   "name": "formcontrol",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,8 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "formcontrol -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
